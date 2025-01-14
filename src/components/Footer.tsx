@@ -1,5 +1,5 @@
-import React from 'react';
-import { Home, Phone, Mail, Facebook, Twitter, Instagram } from 'lucide-react';
+import React from "react";
+import { Home, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,25 +9,48 @@ export default function Footer() {
           <div>
             <div className="flex items-center">
               <Home className="h-8 w-8 text-white" />
-              <span className="ml-2 text-xl font-bold text-white">AssetSquare</span>
+              <span className="ml-2 text-xl font-bold text-white">
+                Asset Square Project
+              </span>
             </div>
             <p className="mt-4 text-gray-400 text-sm">
-              Your premium destination for buying, selling, and renting properties with expert guidance.
+              Your premium destination for buying, selling, and renting
+              properties with expert guidance.
             </p>
           </div>
-          
+
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Terms & Conditions</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white">
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">
+              Contact Us
+            </h3>
             <ul className="space-y-2">
               <li className="flex items-center text-gray-400">
                 <Phone className="h-5 w-5 mr-2" />
@@ -55,7 +78,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400 text-sm">
             © {new Date().getFullYear()} AssetSquare. All rights reserved.

@@ -1,6 +1,6 @@
-import React from "react";
-import { Menu, X, User } from "lucide-react";
-import Logo from "./Logo";
+import React from 'react';
+import { Menu, X, User } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -42,11 +42,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-blue-400"
             >
-              {isOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
         </div>
